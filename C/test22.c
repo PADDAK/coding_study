@@ -1,4 +1,4 @@
-//test 20,21과비교-두수의합
+//test 20,21과비교-두수의합(성공))
 #include<stdio.h>
 int sum(int a,int b)
 {
@@ -39,6 +39,6 @@ int main()
 
     int result = sum(num1, num2);
     output(result);
-
+    //output(sum(num1,num2));
     return 0;    
 }
